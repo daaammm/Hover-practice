@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(188, 188, 188);
+    
+}
+
+.container{
+    width: 100px;
+    height: 172px;
+    margin: 0 auto;
+    margin-top: 200px;
+    background-image: url(/logo-front.png);
+}
+
+div img:hover{
+    opacity: 0;
+    transition: .3s ease all;
+}
